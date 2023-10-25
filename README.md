@@ -64,16 +64,26 @@ in the outer wrapper of a class?
 	* What error message do you get when you now press the compile button?
 	* Do you think this message clearly explains what is wrong?
 
+> The diagram goes from slashes to xs, the code no longer compiles. "error found in class". I don't think that message is particularly helpful for a newbie. 
+
 ### Exercise 2.8
 * Check whether or not it is possible to leave out the word `public` from the outer wrapper of the `TicketMachine` class.
+
+>Yes, that compiles.
 
 ### Exercise 2.9
 * From your earlier experimentation with the ticket machine objects within BlueJ you can probably remember the names of some of the methods – `printTicket`, for instance.
 	* Look at the class definition in Code 2.1 and use this knowledge, along with the additional information about ordering we have given you, to try to make a list of the names of the fields, constructors, and methods in the `TicketMachine` class.
 	* Hint: There is only one constructor in the class.
 
+> Fields - price, balance, total, ticketNumber
+> Constructors - TicketMachine()
+> Methods - getPrice(); getTicketNumber(); getBalance(); insertMoney(); calculateTotal(); incrementTicketNumber(); printTicket()
+
 ### Exercise 2.10
 * Do you notice any features of the constructor that make it significantly different from the other methods of the class?
+
+> It requires a parameter.
 
 ### Exercise 2.11
 * What do you think is the type of each of the following fields?

@@ -18,12 +18,12 @@ Work through all these exercises. You edit this file with your answers for these
 * Use `getPrice` method to view the value of the price of the tickets that was set when this object was created.
 * Use `insertMoney` method to simulate inserting an amount of money into the machine.
 * Use `getBalance` to check that the machine has a record of the amount inserted.
-	* You can insert several separate amounts of money into the machine, just like you might insert multiple coins or notes into a real machine. Try inserting the exact amount required for a ticket. As this is a simple machine, a ticket will not be issued automatically, so once you have inserted enough money, call the `printTicket` method. A facsimile ticket should be printed in the BlueJ terminal window.
+* You can insert several separate amounts of money into the machine, just like you might insert multiple coins or notes into a real machine. Try inserting the exact amount required for a ticket. As this is a simple machine, a ticket will not be issued automatically, so once you have inserted enough money, call the `printTicket` method. A facsimile ticket should be printed in the BlueJ terminal window.
 
 ### Exercise 2.2
 * What value is returned if you check the machine’s balance after it has printed a ticket?
   
-***Zero is returned***
+> Zero is returned
 
 ### Exercise 2.3
 * Experiment with inserting different amounts of money before printing tickets.
@@ -31,10 +31,10 @@ Work through all these exercises. You edit this file with your answers for these
 	* What happens if you insert too much money into the machine – do you receive any refund?
 	* What happens if you do not insert enough and then try to print a ticket?
 
-***You can buy a ticket even if the balance is less than the ticket price***
-***Buying one ticket sets the balance to zero regardless to what the previous balance was***
-***Ticket number increments oddly, can't pinpoint exactly why yet***
-***String for the any additional tickets shows the balance as if no tickets were bought*** 
+> You can buy a ticket even if the balance is less than the ticket price
+> Buying one ticket sets the balance to zero regardless to what the previous balance was
+> Ticket number increments oddly, can't pinpoint exactly why yet
+> String for the any additional tickets shows the balance as if no tickets were bought 
 
 ### Exercise 2.4
 * Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.

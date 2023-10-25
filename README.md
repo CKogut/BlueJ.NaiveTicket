@@ -31,10 +31,10 @@ Work through all these exercises. You edit this file with your answers for these
 	* What happens if you insert too much money into the machine – do you receive any refund?
 	* What happens if you do not insert enough and then try to print a ticket?
 
-> You can buy a ticket even if the balance is less than the ticket price
-> Buying one ticket sets the balance to zero regardless to what the previous balance was
-> Ticket number increments oddly, can't pinpoint exactly why yet
-> String for the any additional tickets shows the balance as if no tickets were bought 
+> You can buy a ticket even if the balance is less than the ticket price.  
+> Buying one ticket sets the balance to zero regardless to what the previous balance was.  
+> Ticket number increments oddly, can't pinpoint exactly why yet.  
+> String for the any additional tickets shows the balance as if no tickets were bought.  
 
 ### Exercise 2.4
 * Try to obtain a good understanding of a ticket machine’s behavior by interacting with it on the object bench before we start looking at how the `TicketMachine` class is implemented in the next section.
@@ -46,6 +46,9 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
+
+> public class Student{}
+> public class LabClass{}
 
 ### Exercise 2.7
 Does it matter whether we write<br>

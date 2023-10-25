@@ -43,12 +43,14 @@ Work through all these exercises. You edit this file with your answers for these
 * Create another ticket machine for tickets of a different price.
 	* Buy a ticket from that machine.
 	* Does the printed ticket look different?
+ 
+> The string has the new price.  
 
 ### Exercise 2.6
 * Write out what you think the outer wrappers of the `Student` and `LabClass` classes might look like – do not worry about the inner part.
 
-> public class Student{}
-> public class LabClass{}
+> public class Student{}  
+> public class LabClass{}  
 
 ### Exercise 2.7
 Does it matter whether we write<br>

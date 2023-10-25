@@ -22,6 +22,7 @@ Work through all these exercises. You edit this file with your answers for these
 
 ### Exercise 2.2
 * What value is returned if you check the machine’s balance after it has printed a ticket?
+  
 ***Zero is returned***
 
 ### Exercise 2.3
@@ -29,6 +30,7 @@ Work through all these exercises. You edit this file with your answers for these
 	* Do you notice anything strange about the machine’s behavior?
 	* What happens if you insert too much money into the machine – do you receive any refund?
 	* What happens if you do not insert enough and then try to print a ticket?
+
 ***You can buy a ticket even if the balance is less than the ticket price***
 ***Buying one ticket sets the balance to zero regardless to what the previous balance was***
 ***Ticket number increments oddly, can't pinpoint exactly why yet***
